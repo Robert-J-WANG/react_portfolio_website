@@ -1,3 +1,5 @@
+
+// Portfolio data
 export const featuredPortfolio = [
   {
     id: 1,
@@ -185,5 +187,72 @@ export const contentPortfolio = [
     title: "Content Banking App",
     img:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+  },
+];
+
+
+// Testmoninals data
+export const testmoninalsData = [
+  {
+    id: 1,
+    name: "Tom Durden",
+    title: "Senior Developer",
+    img:
+      "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    icon: "assets/twitter.png",
+    desc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+  },
+  {
+    id: 2,
+    name: "Alex Kalinski",
+    title: "Co-Founder of DELKA",
+    img:
+      "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    icon: "assets/youtube.png",
+    desc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+    featured: true,
+  },
+  {
+    id: 3,
+    name: "Martin Harold",
+    title: "CEO of ALBI",
+    img:
+      "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    icon: "assets/linkedin.png",
+    desc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+  },
+]
+
+// works data
+export const worksData = [
+  {
+    id: "1",
+    icon: "./assets/mobile.png",
+    title: "Web Design",
+    desc:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+    img:
+      "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+  },
+  {
+    id: "2",
+    icon: "./assets/globe.png",
+    title: "Mobile Application",
+    desc:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    img:
+      "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+  },
+  {
+    id: "3",
+    icon: "./assets/writing.png",
+    title: "Branding",
+    desc:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    img:
+      "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
   },
 ];

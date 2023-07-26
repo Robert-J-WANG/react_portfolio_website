@@ -11,7 +11,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                     <a href="#intro" className='logo'>genius.</a>
                     <div className="itemContainer">
                         <PersonIcon className='icon' />
-                        <span>021 02610798</span>
+                        <span>021 02610888</span>
                     </div>
                     <div className="itemContainer">
                         <MailIcon className='icon' />

@@ -7,11 +7,11 @@
   align-items: center;
 
   h1 {
-    font-size: 50px;
+    font-size: 35px;
 
-    // @include mobile{
-    //   font-size: 20px;
-    // }
+    @include mobile {
+      font-size: 20px;
+    }
   }
 
   ul {
@@ -20,11 +20,11 @@
     list-style: none;
     display: flex;
 
-    // @include mobile {
-    //   margin: 10px 0;
-    //   flex-wrap: wrap;
-    //   justify-content: center;
-    // }
+    @include mobile {
+      margin: 10px 0;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   }
 
   .container {
@@ -36,9 +36,9 @@
     flex-wrap: wrap;
     overflow: hidden;
 
-    // @include mobile {
-    //   width: 100%;
-    // }
+    @include mobile {
+      width: 100%;
+    }
 
     .item {
       width: 20vw;
@@ -54,10 +54,10 @@
       transition: all .5s ease;
       cursor: pointer;
 
-      // @include mobile {
-      //   width: 130px;
-      //   height: 100px;
-      // }
+      @include mobile {
+        width: 130px;
+        height: 100px;
+      }
 
       h3 {
         position: absolute;
@@ -73,6 +73,7 @@
 
       &:hover {
         background-color: $mainColor;
+        transform: scale(1.1);
 
         img {
           opacity: 0.2;
